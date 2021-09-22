@@ -1,0 +1,12 @@
+.img_section img {
+    height: 500px;
+    width: auto;
+}
+
+.second_section h1 {
+    font-weight: bold;
+}
+
+.second_section p {
+    font-size: 30px;
+}

@@ -1,0 +1,20 @@
+.main {
+    height: auto;
+    padding: 20px 20px;
+    width: auto;
+}
+
+.main p {
+    max-width: 600px;
+    text-align: left;
+}
+
+.main button {
+    margin: 20px 0px;
+    background: none;
+    padding: 10px 25px;
+    outline: none;
+    border: 2px solid #C10303;
+    border-radius: 25px;
+    font-weight: bold;
+}

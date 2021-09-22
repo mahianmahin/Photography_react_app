@@ -1,0 +1,14 @@
+.main_div {
+    background-image: linear-gradient(rgba(228, 228, 228, 0.517), rgba(228, 228, 228, 0.517)), url(./img/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_section {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
