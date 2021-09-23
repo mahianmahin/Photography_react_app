@@ -4,6 +4,35 @@
     font-size: 20px;
 }
 
+.links {
+    display: flex;
+    flex: row;
+    justify-content: end;
+    align-items: center;
+}
+
 .links a {
     margin: 10px;
+}
+
+.toggle_btn {
+    display: none;
+}
+
+.nav_links {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .nav_links {
+        display: none;
+    }
+
+    .toggle_btn {
+        display: block;
+    }
+
+    .links {
+        justify-content: start;
+    }
 }

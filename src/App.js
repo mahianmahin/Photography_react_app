@@ -2,6 +2,7 @@ import style from './App.module.css';
 import Body from './components/Body/Body';
 import Hero from './components/Hero/Hero';
 import NavbarComponant from "./components/Navbar/Navbar";
+import PhoneNavbar from './components/PhoneNavbar/PhoneNavbar';
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
             <div className={`d-flex justify-content-center align-items-center ${style.hero_section}`}>
                 <Hero />
             </div>
+            <PhoneNavbar />
             <Body />
         </div>
     )
